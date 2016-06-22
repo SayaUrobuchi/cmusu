@@ -13,7 +13,7 @@ description: > # this means to ignore newlines until "baseurl:"
   為此，我們需要力量。<br />
   讓我們一同追求，足以打破現實之壁的巫術──
 baseurl: "/cmusu" # the subpath of your site, e.g. /blog
-url: "http://sayaurobuchi.github.io/cmusu" # the base hostname & protocol for your site
+url: "http://sayaurobuchi.github.io" # the base hostname & protocol for your site
 twitter_username: sa072686
 github_username:  sayaurobuchi
 
