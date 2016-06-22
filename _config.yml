@@ -1,0 +1,21 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: 巫術社的使魔群
+email: sa072686@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  浪漫，便是親手將幻想化為現實。<br />
+  為此，我們需要力量。<br />
+  讓我們一同追求，足以打破現實之壁的巫術──
+baseurl: "/cmusu" # the subpath of your site, e.g. /blog
+url: "http://sayaurobuchi.github.io/cmusu" # the base hostname & protocol for your site
+twitter_username: sa072686
+github_username:  sayaurobuchi
+
+# Build settings
+markdown: kramdown
