@@ -19,3 +19,8 @@ github_username:  sayaurobuchi
 
 # Build settings
 markdown: kramdown
+
+# markdown settings
+kramdown:
+  input: GFM
+  hard_wrap: true
