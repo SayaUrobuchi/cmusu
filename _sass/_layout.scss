@@ -107,6 +107,8 @@
 .footer-heading {
     font-size: 18px;
     margin-bottom: $spacing-unit / 2;
+	display: inline-block;
+	margin-right: $spacing-unit;
 }
 
 .contact-list,
@@ -182,7 +184,7 @@
     list-style: none;
 
     > li {
-        margin-top: 16px;
+        margin-top: $spacing-unit / 2;
 		border-bottom: 2px solid;
     }
 }
