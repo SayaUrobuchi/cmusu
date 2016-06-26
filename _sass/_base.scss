@@ -37,6 +37,12 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+// exclude .highlight pre, preventing doubled margin-bottom
+.highlight pre
+{
+	margin-bottom: 0;
+}
+
 
 
 /**
@@ -74,6 +80,11 @@ li {
     > ol {
          margin-bottom: 0;
     }
+}
+
+li > p:first-child ~ p
+{
+	margin-left: $spacing-unit/2;
 }
 
 
