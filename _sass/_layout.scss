@@ -207,6 +207,21 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+
+    h2 {
+        font-size: 28px;
+		font-family: $title-font-family;
+		color: #CC9020;
+		border-bottom-style: solid;
+
+        @include media-query($on-laptop) {
+            font-size: 28px;
+        }
+    }
+    
+    ul {
+        color: #CC9020;
+    }
 }
 
 .post-title {
