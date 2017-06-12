@@ -152,15 +152,14 @@ code {
 }
 
 .highlight {
-    border: 1px solid $grey-color-light;
 }
 
 pre {
-    padding: 8px 12px;
+    padding: 8px 32px;
     overflow-x: auto;
+    border: 1px solid $grey-color-light;
 
     > code {
-        border: 0;
         padding-right: 0;
         padding-left: 0;
     }
